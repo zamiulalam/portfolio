@@ -78,7 +78,8 @@
                 <li>Developed a fraud detection model using boosted decision trees (BDT). </li>
                 <li>Dealt with a highly imbalanced dataset of 590,540 transactions,
                    of which only 3.5% were fraudulent.</li>
-                <li>Achieved 93% ROC AUC score using ensemble model of XGBoost, LightGBM and CATBoost</li>
+                <li>Achieved 93% ROC AUC score using ensemble model of XGBoost, LightGBM and CATBoost.</li>
+                <li>Model deployable in real-time transaction screening to automatically flag suspicious activity, reducing financial losses and minimizing manual review workload for fraud analysts.</li>
               </ul>
 
               <div class="work__links">
@@ -99,12 +100,13 @@
             <div class="work__text">
               <h3>Chicago Crimes</h3>
               <p>
-                <li>Analyzed crime data from the Chicago Data Portal
-                   which contained 8 million rows and 22 columns. </li>
-                <li>Used Seaborn and Folium for data visualization and building interactive maps.</li>
-                <li>Showed how different types of crimes are distributed among the different community areas</li>
+                Crime patterns across Chicago's community areas, uncovered through large-scale data analysis and interactive visualization.
               </p>
-
+              <ul class="work__list">
+                <li>Analyzed crime data from the Chicago Data Portal which contained 8 million rows and 22 columns.</li>
+                <li>Used Seaborn and Folium for data visualization and building interactive maps.</li>
+                <li>Developed SARIMA time series models to generate actionable predictions for public safety authorities.</li>
+              </ul>
 
               <div class="work__links">
                 <a href="https://github.com/zamiulalam/chicago_crimes" class="link__text">
@@ -116,7 +118,111 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/crime_heatmap.jpeg" class="work__image" alt="Project 1" />
+              <img src="./images/crime_heatmap.jpeg" class="work__image" alt="Chicago Crimes" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>ICU Mortality Prediction</h3>
+              <p>
+                A clinical machine learning system trained on the MIMIC-III dataset to predict ICU patient mortality, supporting better resource allocation and patient outcomes.
+              </p>
+              <ul class="work__list">
+                <li>Cleaned and processed MIMIC-III dataset with 2+ million rows of hourly time series data covering 38,597 patients and 49,785 hospital admissions.</li>
+                <li>Built and compared classification models including Logistic Regression, Random Forest, XGBoost, LSTM, and ClinicalBERT across tabular and time-series use cases.</li>
+                <li>Achieved AUC of 0.83; findings demonstrate how ML-driven mortality prediction can reduce ICU burden and improve resource allocation.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Git Hub <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="ICU Mortality Prediction" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Sepsis Prediction in Patients</h3>
+              <p>
+                An early-warning ML model for sepsis detection in ICU patients, designed to give clinicians a critical time advantage before the condition escalates.
+              </p>
+              <ul class="work__list">
+                <li>Cleaned Physionet dataset for early sepsis prediction using high-resolution EHR data with 1.5 million rows.</li>
+                <li>Developed XGBoost classification model achieving AUC of 0.95; applied correlation analysis and feature engineering to EHR data.</li>
+                <li>Early detection model enables clinical intervention before escalation, potentially reducing sepsis mortality rates.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Git Hub <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Sepsis Prediction" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Sentiment Analysis and Topic Modelling</h3>
+              <p>
+                An NLP pipeline for discovering and tracking evolving public narratives around Artificial Intelligence across a large corpus of media coverage.
+              </p>
+              <ul class="work__list">
+                <li>Built a topic modeling pipeline applied to 10,000 New York Times articles about Artificial Intelligence.</li>
+                <li>Used LLM models including BERT and BERTopic to discover and visualize latent themes across the article corpus.</li>
+                <li>Pipeline enables media organizations or policy teams to automatically track how AI narratives evolve over time.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Git Hub <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Sentiment Analysis and Topic Modelling" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Predicting Employee Attrition</h3>
+              <p>
+                A predictive HR analytics tool that identifies employees at flight risk, enabling targeted retention efforts before costly turnover occurs.
+              </p>
+              <ul class="work__list">
+                <li>Built supervised models (Logistic Regression, Random Forest, XGBoost) and unsupervised clustering (K-Means) on the IBM HR dataset.</li>
+                <li>Used scaling, one-hot encoding, and clustering to uncover key attrition drivers including income, satisfaction, and tenure.</li>
+                <li>Delivers an early warning system giving HR leaders actionable insight to intervene before losing key employees.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Git Hub <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Predicting Employee Attrition" />
             </div>
           </div>
 
